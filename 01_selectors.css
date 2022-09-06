@@ -1,0 +1,121 @@
+body {
+    font-family:"Roboto Light";
+    font-size: 26px;
+   background: #ddd;
+}
+.container {
+      width: auto;
+      margin: auto;
+      padding: 0 65px;
+      min-width: 730px;
+}
+img {
+      align-items: center;
+      float: left;
+      margin-top: 32px;
+      margin-left: 20px;
+
+      border-radius: 15px;
+      box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: royalblue;
+}
+h2 {
+    color:blue;
+}
+
+h3 {
+    color: #f16528 ;
+}
+
+.card1, .card2, .card3, .card4, .card5, .box  {
+    border: 3px solid cyan;
+    border-radius:35px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card1 {
+     width:auto;
+     background: cyan;
+     text-align: center;
+     margin-top: 10px;
+}
+.card2 {
+    background: lightskyblue;
+}
+.card3 {
+    background: coral;
+    padding: 35px;
+}
+.card4 {
+    background: skyblue;
+    text-align: center;
+}
+.card5 {
+    background: hotpink;
+   }
+
+table, thead {
+    border-collapse: collapse;
+    border: 3px solid black;
+        }
+.table td {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.table td:hover  {
+    background: bisque;
+}
+.table tr:hover  {
+    background: aqua;
+}
+
+.table td:nth-child(0) {
+    background: hotpink;
+}
+
+td  {
+    border: 2px solid black;
+    padding: 5px 30px;
+    text-align: center;
+}
+
+textarea {
+    width:80%;
+    resize: vertical;
+    padding:25px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:150px;
+}
+
+.form label {
+    display: inline-block;
+}
+.form input {
+    width: 65%;
+    }
+label, input, button {
+    margin: 10px;
+    padding:10px;
+    border: 0;
+    border-radius:15px;
+}
+button {
+    background-color: #dedede;
+    width:150px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: aqua;
+    font-size: 1rem;
+    }
